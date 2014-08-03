@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\project.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>Buil_All</name>
+      <member>
+        <project>project</project>
+        <configuration>STM3210E-EVAL</configuration>
+      </member>
+      <member>
+        <project>project</project>
+        <configuration>STM324x9I-EVAL-MB1046</configuration>
+      </member>
+      <member>
+        <project>project</project>
+        <configuration>STM324x9I-EVAL-MB1063</configuration>
+      </member>
+      <member>
+        <project>project</project>
+        <configuration>STM324xG-EVAL</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

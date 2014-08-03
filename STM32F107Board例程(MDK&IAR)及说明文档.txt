@@ -1,0 +1,6 @@
+所有例程均有2种编译环境工程：MDK与IAR 
+EWARM文件夹下为IAR工程
+MDK-ARM文件夹下为MDK工程
+src文件夹下为应用程序代码
+drivers文件夹下为通用驱动程序代码
+killobj.bat为批处理文件，用于删除工程编译时产生的目标文件
