@@ -16,10 +16,17 @@
           <Vendor>STMicroelectronics</Vendor>
           <Cpu>IRAM(0x20000000-0x2000FFFF) IROM(0x8000000-0x803FFFF) CLOCK(25000000) CPUTYPE("Cortex-M3")</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
+<<<<<<< HEAD
           <StartupFile>"STARTUP\ST\STM32F10x\startup_stm32f10x_cl.s" ("STM32 Connectivity Line Startup Code")</StartupFile>
           <FlashDriverDll>UL2CM3(-O14 -S0 -C0 -N00("ARM Cortex-M3") -D00(1BA00477) -L00(4) -FO7 -FD20000000 -FC800 -FN1 -FF0STM32F10x_CL -FS08000000 -FL040000)</FlashDriverDll>
           <DeviceId>4889</DeviceId>
           <RegisterFile>stm32f10x.h</RegisterFile>
+=======
+          <StartupFile>"STARTUP\ST\STM32F10x.s" ("STM32 Startup Code")</StartupFile>
+          <FlashDriverDll>UL2CM3(-O14 -S0 -C0 -N00("ARM Cortex-M3") -D00(1BA00477) -L00(4) -FO7 -FD20000000 -FC800 -FN1 -FF0STM32F10x_CL -FS08000000 -FL040000)</FlashDriverDll>
+          <DeviceId>4889</DeviceId>
+          <RegisterFile>stm32f10x_lib.h</RegisterFile>
+>>>>>>> a53357495e8d9c6dcf9e59a823a1ec5e5289ddbf
           <MemoryEnv></MemoryEnv>
           <Cmp></Cmp>
           <Asm></Asm>
@@ -29,7 +36,11 @@
           <SLE66CMisc></SLE66CMisc>
           <SLE66AMisc></SLE66AMisc>
           <SLE66LinkerMisc></SLE66LinkerMisc>
+<<<<<<< HEAD
           <SFDFile>SFD\ST\STM32F1xx\STM32F107xx.sfr</SFDFile>
+=======
+          <SFDFile></SFDFile>
+>>>>>>> a53357495e8d9c6dcf9e59a823a1ec5e5289ddbf
           <UseEnv>0</UseEnv>
           <BinPath></BinPath>
           <IncludePath></IncludePath>
@@ -100,6 +111,7 @@
         </CommonProperty>
         <DllOption>
           <SimDllName>SARMCM3.DLL</SimDllName>
+<<<<<<< HEAD
           <SimDllArguments>-REMAP</SimDllArguments>
           <SimDlgDll>DCM.DLL</SimDlgDll>
           <SimDlgDllArguments>-pCM3</SimDlgDllArguments>
@@ -107,6 +119,15 @@
           <TargetDllArguments></TargetDllArguments>
           <TargetDlgDll>TCM.DLL</TargetDlgDll>
           <TargetDlgDllArguments>-pCM3</TargetDlgDllArguments>
+=======
+          <SimDllArguments></SimDllArguments>
+          <SimDlgDll>DARMSTM.DLL</SimDlgDll>
+          <SimDlgDllArguments>-pSTM32F107VC</SimDlgDllArguments>
+          <TargetDllName>SARMCM3.DLL</TargetDllName>
+          <TargetDllArguments></TargetDllArguments>
+          <TargetDlgDll>TARMSTM.DLL</TargetDlgDll>
+          <TargetDlgDllArguments>-pSTM32F107VC</TargetDlgDllArguments>
+>>>>>>> a53357495e8d9c6dcf9e59a823a1ec5e5289ddbf
         </DllOption>
         <DebugOption>
           <OPTHX>
@@ -163,10 +184,17 @@
             <RunIndependent>0</RunIndependent>
             <UpdateFlashBeforeDebugging>1</UpdateFlashBeforeDebugging>
             <Capability>1</Capability>
+<<<<<<< HEAD
             <DriverSelection>4096</DriverSelection>
           </Flash1>
           <bUseTDR>1</bUseTDR>
           <Flash2>BIN\UL2CM3.DLL</Flash2>
+=======
+            <DriverSelection>4099</DriverSelection>
+          </Flash1>
+          <bUseTDR>1</bUseTDR>
+          <Flash2>Segger\JL2CM3.dll</Flash2>
+>>>>>>> a53357495e8d9c6dcf9e59a823a1ec5e5289ddbf
           <Flash3>"" ()</Flash3>
           <Flash4></Flash4>
         </Utilities>

@@ -87,7 +87,11 @@
         </option>
         <option>
           <name>OGLastSavedByProductVersion</name>
+<<<<<<< HEAD
           <state>7.20.2.7418</state>
+=======
+          <state>6.70.1.5793</state>
+>>>>>>> a53357495e8d9c6dcf9e59a823a1ec5e5289ddbf
         </option>
         <option>
           <name>GeneralEnableMisra</name>
@@ -99,7 +103,11 @@
         </option>
         <option>
           <name>OGChipSelectEditMenu</name>
+<<<<<<< HEAD
           <state>STM32F103xC	ST STM32F103xC</state>
+=======
+          <state>STM32F107xC	ST STM32F107xC</state>
+>>>>>>> a53357495e8d9c6dcf9e59a823a1ec5e5289ddbf
         </option>
         <option>
           <name>GenLowLevelInterface</name>
@@ -163,7 +171,11 @@
       <name>ICCARM</name>
       <archiveVersion>2</archiveVersion>
       <data>
+<<<<<<< HEAD
         <version>31</version>
+=======
+        <version>29</version>
+>>>>>>> a53357495e8d9c6dcf9e59a823a1ec5e5289ddbf
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -234,7 +246,11 @@
         <option>
           <name>CCAllowList</name>
           <version>1</version>
+<<<<<<< HEAD
           <state>11111110</state>
+=======
+          <state>1111111</state>
+>>>>>>> a53357495e8d9c6dcf9e59a823a1ec5e5289ddbf
         </option>
         <option>
           <name>CCDebugInfo</name>
@@ -403,6 +419,7 @@
           <name>CCNoLiteralPool</name>
           <state>0</state>
         </option>
+<<<<<<< HEAD
         <option>
           <name>CCOptStrategySlave</name>
           <version>0</version>
@@ -412,6 +429,8 @@
           <name>CCGuardCalls</name>
           <state>1</state>
         </option>
+=======
+>>>>>>> a53357495e8d9c6dcf9e59a823a1ec5e5289ddbf
       </data>
     </settings>
     <settings>
@@ -590,6 +609,7 @@
         <option>
           <name>OOCOutputFormat</name>
           <version>2</version>
+<<<<<<< HEAD
           <state>1</state>
         </option>
         <option>
@@ -599,6 +619,17 @@
         <option>
           <name>OOCOutputFile</name>
           <state>Project.hex</state>
+=======
+          <state>0</state>
+        </option>
+        <option>
+          <name>OCOutputOverride</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OOCOutputFile</name>
+          <state></state>
+>>>>>>> a53357495e8d9c6dcf9e59a823a1ec5e5289ddbf
         </option>
         <option>
           <name>OOCCommandLineProducer</name>
@@ -606,7 +637,11 @@
         </option>
         <option>
           <name>OOCObjCopyEnable</name>
+<<<<<<< HEAD
           <state>1</state>
+=======
+          <state>0</state>
+>>>>>>> a53357495e8d9c6dcf9e59a823a1ec5e5289ddbf
         </option>
       </data>
     </settings>
@@ -970,7 +1005,11 @@
     </file>
   </group>
   <group>
+<<<<<<< HEAD
     <name>EWARM</name>
+=======
+    <name>EWARMv67</name>
+>>>>>>> a53357495e8d9c6dcf9e59a823a1ec5e5289ddbf
     <file>
       <name>$PROJ_DIR$\..\..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\iar\startup_stm32f10x_cl.s</name>
     </file>
