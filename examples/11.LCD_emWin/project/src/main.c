@@ -25,9 +25,9 @@ int main(void)
   //touch_calibrate();
   
   /*运行Demo*/
-  GUIDEMO_Main();
+  //GUIDEMO_Main();
   
   /*简易计算器*/
-  //calculator_main();  
+  calculator_main();  
   while(1);
 }
