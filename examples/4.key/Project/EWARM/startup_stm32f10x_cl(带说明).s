@@ -45,7 +45,7 @@
 //定义各种模式STACK，具体大小位置是由linker文件(相当于ADS中的分散加载)决定的，之后在详细介绍。
 //这些STACK都定义在内部RAM中，以CSTACK为例，地址为0x40000040
         ;; Forward declaration of sections.
-        SECTION CSTACK:DATA:NOROOT(3) //《IAR手册》P63 定义堆栈段数据(向下生长) DATA 属性NOROOT (2）8字节对齐
+        SECTION CSTACK:DATA:NOROOT(3) //《IAR手册》P63 定义堆栈段数据(向下生长) DATA 属性NOROOT (3）8字节对齐
 
         SECTION .intvec:CODE:NOROOT(2)//定义复位及中断向量代码 CODE  4字节对齐
 

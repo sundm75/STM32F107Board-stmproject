@@ -14,7 +14,6 @@ History:
 #include "key.h"
 #include "delay.h"
 
-extern 
 
 int main(void)
 {
