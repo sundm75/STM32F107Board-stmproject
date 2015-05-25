@@ -37,7 +37,7 @@ void UartConfig(void)
         RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1 | RCC_APB2Periph_GPIOA, ENABLE);
 
         /* Enable the USART1 Pins Software Remapping */
-        //IO_PinRemapConfig(GPIO_Remap_USART2, ENABLE);
+        //GPIO_PinRemapConfig(GPIO_Remap_USART2, ENABLE);
     
 	/* Configure USART Tx as alternate function push-pull */
 	GPIO_InitStructure.GPIO_Pin   = UART1_GPIO_TX;
