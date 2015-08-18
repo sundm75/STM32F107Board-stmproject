@@ -19,7 +19,7 @@ Author: 苗成诗
                                           5.修正了连续按符号键会显示多符号的问题。
 *******************************************************************************/
 
-#include "lcd_ssd1289.h" 
+#include "lcddevice.h" 
 #include "GUI.h"
 #include "guidemo.h"
 #include "timer5.h"

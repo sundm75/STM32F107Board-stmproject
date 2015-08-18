@@ -463,9 +463,9 @@
               <FilePath>..\drivers\usart.c</FilePath>
             </File>
             <File>
-              <FileName>lcd_ssd1289.c</FileName>
+              <FileName>lcd.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\drivers\lcd_ssd1289.c</FilePath>
+              <FilePath>..\drivers\lcd.c</FilePath>
             </File>
           </Files>
         </Group>

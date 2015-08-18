@@ -438,11 +438,6 @@
           <GroupName>Drivers</GroupName>
           <Files>
             <File>
-              <FileName>lcd_ssd1289.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\drivers\lcd_ssd1289.c</FilePath>
-            </File>
-            <File>
               <FileName>timer5.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\drivers\timer5.c</FilePath>
@@ -451,6 +446,11 @@
               <FileName>touch_spi.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\drivers\touch_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>lcd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\drivers\lcd.c</FilePath>
             </File>
           </Files>
         </Group>

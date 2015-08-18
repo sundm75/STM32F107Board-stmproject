@@ -6,7 +6,6 @@
 4.标定屏幕；或者运行Demo,在GUIDEMO.h修改要运行的范例;或者运行苗成诗编写的简易计算器
 */
 
-#include "lcd_ssd1289.h" 
 #include "GUI.h"
 #include "guidemo.h"
 #include "timer5.h"
@@ -25,16 +24,11 @@ int main(void)
   //touch_calibrate();
   
   /*运行Demo*/
-<<<<<<< HEAD
-  //GUIDEMO_Main();
-  
-  /*简易计算器*/
-  calculator_main();  
-=======
+
   GUIDEMO_Main();
   
   /*简易计算器*/
   //calculator_main();  
->>>>>>> a53357495e8d9c6dcf9e59a823a1ec5e5289ddbf
-  while(1);
+
+   while(1);
 }

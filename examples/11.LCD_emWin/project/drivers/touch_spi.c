@@ -23,7 +23,6 @@ History:
  ******************************************************************************/ 
 #include "touch.h"
 #include "stm32f10x.h"
-//#include "rtthread.h"
 
 /*¾²Ì¬º¯Êý¶¨Òå */
 static uint8_t  spi_white_read_byte(uint8_t byte);

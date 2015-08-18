@@ -13,7 +13,7 @@ History:
 #include "led.h"
 #include "usart.h"
 #include "key.h"
-#include "lcd_ssd1289.h"
+#include "lcd.h"
 
 extern void testlcd();
 
