@@ -248,7 +248,7 @@ struct GUI_CONTEXT {
   I16P DispPosX, DispPosY;
   I16P DrawPosX, DrawPosY;
   I16P TextMode, TextAlign;
-  GUI_COLOR Color, BkColor;                // Required only when changing devices and for speed opt (caching)
+  GUI_COLOR Color, BkColor;                // Requi only when changing devices and for speed opt (caching)
   //
   // Pointer to  color indices
   //
@@ -1450,6 +1450,7 @@ extern const tGUI_XBF_APIList GUI_XBF_APIList_Prop_AA4_Ext;
 #define GUI_ID_HELP              6
 #define GUI_ID_MAXIMIZE          7
 #define GUI_ID_MINIMIZE          8
+#define GUI_ID_WARNSET           9
 
 #define GUI_ID_VSCROLL    0xFE
 #define GUI_ID_HSCROLL    0xFF
