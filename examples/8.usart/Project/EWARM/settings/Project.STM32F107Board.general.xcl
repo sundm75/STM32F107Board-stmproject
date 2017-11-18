@@ -1,0 +1,13 @@
+"C:\Program Files\IAR Systems\Embedded Workbench 7.5\arm\bin\armproc.dll" 
+
+"C:\Program Files\IAR Systems\Embedded Workbench 7.5\arm\bin\armsim2.dll" 
+
+"F:\Acer±Ê¼Ç±¾µçÄÔ\stm\stm32f107board\stmproject\examples\8.usart\Project\EWARM\STM32F107Board\Exe\Project.out" 
+
+--plugin "C:\Program Files\IAR Systems\Embedded Workbench 7.5\arm\bin\armbat.dll" 
+
+--device_macro "C:\Program Files\IAR Systems\Embedded Workbench 7.5\arm\config\debugger\ST\STM32F1xx.dmac" 
+
+
+
+
